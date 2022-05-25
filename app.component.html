@@ -1,0 +1,17 @@
+<header>
+  
+  <br>
+<h1 style="text-align: center;">Addition Demo using angular</h1>
+<br>
+</header>
+<div class="app" style="text-align: center;">
+        <input type="text" placeholder="Enter First Number" #num1>
+        <br> <br>
+        <input type="text" placeholder="Enter Second Number" #num2>
+        <br>
+        <br>
+        <button (click)="Add(num1.value,num2.value)">Calculate</button>
+        <br>
+        <br>
+        <label for="Result">Result: </label>{{result}}
+</div>
