@@ -1,0 +1,30 @@
+body
+{
+    background-color: black;
+    color: white    ;
+}
+div 
+{
+    text-align: center;
+    width: 300px;
+    border: 10px solid rgb(0, 217, 255);
+    padding: 25px;
+    margin: auto;
+}
+input[type=text] 
+{
+    border: 2px solid red;
+    border-radius: 4px;
+}
+button
+{
+    background-color: rgb(255, 0, 0);
+    color: black;
+    cursor: pointer;
+    border: none;
+    padding: 3px;
+    margin: auto;
+}
+::-webkit-input-placeholder {
+    text-align: center;
+ }
